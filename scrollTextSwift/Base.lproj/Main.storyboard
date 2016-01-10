@@ -15,13 +15,13 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kbl-Uq-0nF">
-                                <rect key="frame" x="16" y="20" width="343" height="647"/>
+                                <rect key="frame" x="16" y="20" width="288" height="548"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">
+                                <string key="text">
 
 Джорж Дюруа получил у кассирши ресторана сдачу с пяти франков и направился к выходу.
      Статный от природы и к тому же сохранивший унтерофицерскую выправку, он приосанился и, привычным молодцеватым жестом закрутив усы, охватил запоздавших посетителей тем зорким взглядом, каким красавец мужчина, точно ястреб, высматривает добычу.
@@ -42,7 +42,7 @@
      Точно желая убедиться, как сухо у него во рту, он, слегка прищелкнув, провел языком по небу.
      Толпа скользила вокруг него, истомленная, вялая, а он, задевая встречных плечом и насвистывая веселые песенки, думал все о тем же: "Скоты! И ведь у каждого из этих болванов водятся деньги!" Мужчины, которых он толкал, огрызались, женщины бросали ему вслед: "Нахал!"
      Он прошел мимо Водевиля и остановился против Американского кафе, подумывая, не выпить ли ему пива, - до того мучила его жажда. Но прежде чем на это решиться, он взглянул на уличные часы с освещенным циферблатом. Было четверть десятого. Он знал себя: как только перед ним поставят кружку с пивом, он мигом осушит ее до дна. А что он будет делать до одиннадцати?
-     "Пройдусь до церкви Мадлен, - сказал он себе, - и не спеша двинусь обратно".</mutableString>
+     "Пройдусь до церкви Мадлен, - сказал он себе, - и не спеша двинусь обратно".</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -55,7 +55,7 @@
                             <constraint firstItem="kbl-Uq-0nF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ejr-UB-ibg"/>
                         </constraints>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="mopassanTextView" destination="kbl-Uq-0nF" id="cBT-LL-sqd"/>
                     </connections>
